@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FIRE DETECTION</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/style.css') }}">
+
+
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class = "projectName" >Fire Detection & Human Tracking</h1><br><br><br>
+      </div>
+  </header>
+
+  <script src="{{url_for('static', filename='css/js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{url_for('static', filename='css/js/popper.min.js')}}"></script>
+  <script src="{{url_for('static', filename='css/js/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static', filename='css/js/main.js')}}"></script>
+    {% block content %}
+    {% endblock %}
+   
+  </body>
+</html>
